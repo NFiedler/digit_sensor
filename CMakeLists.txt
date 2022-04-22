@@ -15,7 +15,7 @@ include_directories(
 )
 
 catkin_install_python(PROGRAMS
-  scripts/digit
-  scripts/list_digits
+  scripts/digit.py
+  scripts/list_digits.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
