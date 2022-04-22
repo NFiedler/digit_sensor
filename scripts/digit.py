@@ -8,7 +8,7 @@ from digit_interface.digit import Digit
 from digit_interface.digit_handler import DigitHandler
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     rospy.init_node("digit_sensor")
     argv = rospy.myargv(argv=sys.argv)
     #serial_id = rospy.get_param('~serial_id')
