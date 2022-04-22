@@ -1,5 +1,5 @@
 <launch>
 	<node pkg="digit_sensor" type="digit.py" name="D20347" namespace="D20347" args="D20347 VGA 30" />
-	<node pkg="digit_sensor" type="digit.py" name="D20378" namespace="D20378" args="D20347 VGA 30" />
-	<node pkg="digit_sensor" type="digit.py" name="D20379" namespace="D20379" args="D20347 VGA 30" />
+	<node pkg="digit_sensor" type="digit.py" name="D20378" namespace="D20378" args="D20378 VGA 30" />
+	<node pkg="digit_sensor" type="digit.py" name="D20379" namespace="D20379" args="D20379 VGA 30" />
 </launch>
